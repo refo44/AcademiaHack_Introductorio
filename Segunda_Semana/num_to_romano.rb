@@ -16,20 +16,16 @@ system('clear')
 
 loop do
 
- if numero < 1 || numero > 3999
-  system('clear')
-  puts "Debe introducir un numero entre 1 y 3999"
-  puts
- end
+  if numero < 1 || numero > 3999
+    system('clear')
+    puts "Debe introducir un numero entre 1 y 3999"
+    puts
+  end
 
-print "Introduzca un numero: "
-numero = gets.chop.to_i
+  print "Introduzca un numero: "
+  numero = gets.chop.to_i
 
- if numero > 3999
-   puts "Debe introducir un numero entre 1 y 3999"
- end
- 
-  break if numero>0 && numero < 3999 
+  break if numero > 0 && numero < 3999 
 end
 
 puts
